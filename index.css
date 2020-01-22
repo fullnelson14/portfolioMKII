@@ -44,3 +44,10 @@ h1 {
 #nav-bar li:active {
   background-color: red;
 }
+
+@media screen and (max-width: 500px) {
+  main {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
